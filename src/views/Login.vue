@@ -1,7 +1,5 @@
 <template>
-  <div style="display: flex;
-    align-items: center;
-    justify-content: center;transform: translateY(50%);">
+  <div style="display: flex; align-items: center; justify-content: center;transform: translateY(50%);">
     <div style="width:500px">
       <v-card class="elevation-12">
         <v-toolbar color="primary">
@@ -10,7 +8,7 @@
         <v-card-text>
           <v-form>
             <v-text-field prepend-icon="person" name="login" label="E-mail" type="text"></v-text-field>
-            <v-text-field id="password" name="password" prepend-icon="lock"  label="Senha" type="password"></v-text-field>
+            <v-text-field id="password" name="password" prepend-icon="lock" label="Senha" type="password"></v-text-field>
           </v-form>
         </v-card-text>
         <v-card-actions>
